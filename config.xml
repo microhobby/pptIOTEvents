@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns:tizen="http://tizen.org/ns/widgets" xmlns="http://www.w3.org/ns/widgets" id="http://castello.eng.br/pptIOTEvents" version="1.0.0" viewmodes="maximized">
+	<tizen:application id="YNMsZGH3Ro.pptIOTEvents" package="YNMsZGH3Ro" required_version="2.3.1"/>
+	<author href="www.castello.eng.br" email="matheus@castello.eng.br">Matheus Castello</author>
+	<content src="index.html"/>
+	<feature name="http://tizen.org/feature/screen.size.all"/>
+	<feature name="tizen.org/feature/input.rotating_bezel"/>
+	<feature name="tizen.org/feature/network.internet"/>
+	<feature name="tizen.org/feature/network.wifi"/>
+	<feature name="tizen.org/feature/web.service"/>
+	<icon src="skip.png"/>
+	<name>Next Slide</name>
+	<tizen:privilege name="http://tizen.org/privilege/content.read"/>
+	<tizen:privilege name="http://tizen.org/privilege/content.write"/>
+	<tizen:privilege name="http://tizen.org/privilege/download"/>
+	<tizen:privilege name="http://tizen.org/privilege/filesystem.read"/>
+	<tizen:privilege name="http://tizen.org/privilege/filesystem.write"/>
+	<tizen:privilege name="http://tizen.org/privilege/push"/>
+	<tizen:privilege name="http://tizen.org/privilege/unlimitedstorage"/>
+	<tizen:privilege name="http://tizen.org/privilege/internet"/>
+	<tizen:privilege name="http://tizen.org/privilege/power"/>
+	<tizen:profile name="wearable"/>
+	<tizen:setting background-support="enable" encryption="disable" hwkey-event="enable"/>
+</widget>
